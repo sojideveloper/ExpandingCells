@@ -8,8 +8,6 @@
 
 import UIKit
 
-// MARK :- Global Constants
-
 class ExpandingTableViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
@@ -53,7 +51,7 @@ class ExpandingTableViewController: UIViewController {
 
 }
 
-// MARK :- UITableView Delegate and Data-Source functions
+// MARK :- UITableView Delegate and Data Source functions
 
 extension ExpandingTableViewController: UITableViewDataSource, UITableViewDelegate {
     
@@ -110,8 +108,8 @@ extension ExpandingTableViewController: UITableViewDataSource, UITableViewDelega
         } else {
             return TextViewCell.defaultHeight
         }
-
     }
+    
 }
 
 
